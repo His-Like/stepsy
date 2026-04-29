@@ -17,7 +17,7 @@
     <string name="no_activity_permission">「身体活動の認識」権限がありません</string>
 
     <!-- Header section -->
-    <string name="expand_collapse">展開／折りたたみ</string>
+    <string name="expand_collapse">展開/折りたたみ</string>
     <string name="header_today">今日</string>
     <string name="header_week">今週</string>
     <string name="header_month">今月</string>
