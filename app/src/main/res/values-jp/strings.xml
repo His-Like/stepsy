@@ -4,7 +4,7 @@
 
     <!-- General UI Labels -->
     <string name="steps_day_display">%1$s / %2$.2f %3$s / %4$d kcal</string>
-    <string name="week_display_format">第 %1$d 週</string>
+    <string name="week_display_format">%1$d 週目</string>
     <string name="no_entry">%1$s の記録はありません</string>
     <string name="calories">%1$d kcal</string>
     <string name="steps_month">今月の歩数</string>
