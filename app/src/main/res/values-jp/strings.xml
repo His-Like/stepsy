@@ -10,7 +10,7 @@
     <string name="steps_month">今月の歩数</string>
     <string name="avg_distance">1日あたりの平均</string>
     <string name="total_distance">合計距離</string>
-    <string name="goal_streak_line">目標: %1$s ・ %2$s %3$s 日連続</string>
+    <string name="goal_streak_line">目標: %1$s ・ %2$s %3$s 日連続達成</string>
     <string name="goal_streak_dead_line">1日の目標: %1$s</string>
 
     <string name="no_sensor">この端末には歩数計センサーが搭載されていません</string>
@@ -41,7 +41,7 @@
 
     <plurals name="streak_record_count">
         <item quantity="one">%d 日</item>
-        <item quantity="other">%d 日r</item>
+        <item quantity="other">%d 日</item>
     </plurals>
 
     <plurals name="days_word_only">
@@ -50,7 +50,7 @@
     </plurals>
 
     <!-- Notifications -->
-    <string name="notification_category_counting_paused">カウント一時停止中</string>
+    <string name="notification_category_counting_paused">歩数カウント一時停止中</string>
     <string name="notification_category_steps_day">歩数進捗</string>
     <string name="notification_description_paused">歩数カウントが一時停止されたときに通知</string>
     <string name="notification_description_steps_day">今日の歩数</string>
@@ -58,8 +58,8 @@
     <string name="notification_step_goal_progress_title">%1$s / %2$.2f %3$s [%4$d%%]</string>
     <string name="notification_step_goal_progress">目標: %1$s — あと %2$s</string>
     <string name="notification_step_goal_completed">目標達成！</string>
-    <string name="step_counting_paused">歩数カウントは一時停止中です</string>
-    <string name="step_counting_resumed">歩数カウントが再開されました</string>
+    <string name="step_counting_paused">歩数カウント停止中</string>
+    <string name="step_counting_resumed">歩数カウントを再開しました</string>
     <string name="action_pause">一時停止</string>
     <string name="action_resume">再開</string>
 
@@ -75,7 +75,7 @@
     <string name="theme_dark">ダーク</string>
     <string name="pref_height">身長</string>
     <string name="pref_step_length">歩幅</string>
-    <string name="pref_weight">体重 (kg)</string>
+    <string name="pref_weight">体重</string>
     <string name="first_day_of_the_week">週の開始曜日</string>
     <string name="app_language">言語</string>
     <string name="theme">テーマ</string>
@@ -94,7 +94,7 @@
     <string name="next_backup_scheduled">次の自動バックアップ\n%1$s %2$s</string>
     <string name="import_invalid_file">無効なファイルです</string>
     <string name="import_warning_title">歩数データの置き換え</string>
-    <string name="import_warning_message">これにより、現在の歩数データがすべて削除され、インポートされたデータに置き換えられます。続けますか？</string>
+    <string name="import_warning_message">現在の歩数データをインポートされたデータで上書きします。続けますか？</string>
     <string name="pref_vehicle_filter_title">正確な歩数フィルタリング</string>
     <string name="pref_vehicle_filter_summary">オフラインのActivity Recognition APIを使用して、車・バス・自転車乗車時の歩数カウントを除外します。 Google Playサービスが必要です</string>
     <string name="pref_vehicle_filter_summary_foss">Google Play Services API を使用したより正確な歩数認識。フルビルドでのみ利用可能。 Github (github.com/nvllz/stepsy) で入手できます。</string>
